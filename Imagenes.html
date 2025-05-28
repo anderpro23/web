@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imagenes</title>
+	<style>
+	 h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .estrellas {
+      font-size: 20px;
+      color: #FFFFFF;
+      margin-bottom: 10px;
+		text-align: center
+    }
+
+    .carrusel {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 20px 0;
+      scroll-behavior: smooth;
+    }
+	
+		.fila {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+		
+    .tarjeta {
+      position: relative;
+      min-width: 400px;
+      height: 400px;
+      flex-shrink: 0;
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+		margin: 5px
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .carrusel: {
+      height: 8px;
+    }
+
+    .carrusel: {
+      background: #ccc;
+      border-radius: 4px;
+    }
+  </style>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html">Grupo Servitech</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a> </li>
+		<li class="nav-item"> <a class="nav-link" href="mision.html">Mision/Vision</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="nostros.html">Nosotros</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="planes.html">Planes y Precios</a> </li>
+		
+		
+		 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Servicios </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+			<a class="dropdown-item" href="Fotos.html">Fotos</a> 
+			<a class="dropdown-item" href="Video.html">Videos</a>
+			<a class="dropdown-item" href="Imagenes.html">Imagenes</a> </div>
+      </li>
+		
+		
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Contacto </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+			<a class="dropdown-item" href="Empresa.html">Empresa</a> 
+			<a class="dropdown-item" href="Asesoria.html">Asesoria</a>
+			<a class="dropdown-item" href="Ubicacion.html">Ubicacion</a> </div>
+      </li>
+		
+		 <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Opiniones </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+			<a class="dropdown-item" href="opiniones.html">Preguntas Frecuentas</a> 
+				<a class="dropdown-item" href="Valoracion.html">Valoracion</a>
+			 </div>
+      </li>
+		
+		
+	
+		
+    
+    </ul>
+	  
+	  
+	  
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+	
+	
+	<div class="estrellas">★★★★★</div>
+  <h2 style="color: aliceblue; text-align: center">Categoria de Servicios por Imagenes</h2>
+
+  <!-- Primera fila con 3 imágenes -->
+  <div class="fila">
+    <div class="tarjeta">
+      <img src="images/imagen1.png" alt="Persona 1">
+     
+    </div>
+    <div class="tarjeta">
+      <img src="images/imagen2.png" alt="Persona 2">
+     
+    </div>
+    <div class="tarjeta">
+      <img src="images/imagen3.png" alt="Persona 3">
+     
+    </div>
+  </div>
+
+  <!-- Segunda fila con la imagen 4 -->
+  <div class="fila">
+    <div class="tarjeta">
+      <img src="images/imagen4.png" alt="Persona 4">
+      
+    </div>
+	  
+	  <div class="tarjeta">
+      <img src="images/imagen5.png" alt="Persona 4">
+      
+    </div>
+	  
+	  <div class="tarjeta">
+      <img src="images/imagen6.png" alt="Persona 4">
+      
+    </div>
+  </div>
+	
+	<div class="fila">
+    <div class="tarjeta">
+      <img src="images/imagen7.png" alt="Persona 4">
+      
+    </div>
+	  
+	  <div class="tarjeta">
+      <img src="images/imagen8.png" alt="Persona 4">
+      
+    </div>
+	  
+	  <div class="tarjeta">
+      <img src="images/imagen9.png" alt="Persona 4">
+      
+    </div>
+  </div>
+	
+	<div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="row pt-5">
+        <div class="col-lg-4 col-md-12 mb-5">
+            <h1 class="mb-3 display-5 text-capitalize text-white">
+                <span class="text-primary">Grupo</span> Servitech
+            </h1>
+            <p class="m-0" style="color: aliceblue">
+                Tu solución confiable en soporte técnico y mantenimiento. Calidad, rapidez y compromiso a tu servicio.
+            </p>
+        </div>
+        <div class="col-lg-8 col-md-8">
+            <div class="row">
+                <div class="col-md-12 mb-5">
+                    <h5 class="text-primary mb-4">Contactos</h5>
+                    <p style="color: aliceblue"><i class="fa fa-map-marker-alt mr-2"></i>Chachapoyas - Amazonas</p>
+                    <p style="color: aliceblue"><i class="fa fa-phone-alt mr-2"></i>+51 930 860 637</p>
+                    <p style="color: aliceblue"><i class="fa fa-envelope mr-2"></i>GrupoServitech.123@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<div class="container-fluid text-white py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold">Grupo Servitech</a> Anderson Tauma Vilca
+           
+                </p>
+           </div>
+		</div>
+	</div>
+    
+	
+</body>
+</html>
